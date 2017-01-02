@@ -23,6 +23,11 @@ h1 {
     font-size: 3em;
     font-family: "Oswald", sans-serif;
 }
+
+h3 {
+    font-family: "Oswald", sans-serif;
+}
+
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
@@ -41,4 +46,8 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
