@@ -28,6 +28,7 @@ h1 {
 
 h3 {
     font-family: "Oswald", sans-serif;
+    font-size: 2em;
     margin:0;
     padding:0;
 }
@@ -55,4 +56,6 @@ ul.posts li {
 
 .img-circle {
     border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
 }
