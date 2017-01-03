@@ -10,24 +10,20 @@ nav ul, footer ul {
     font-weight: bold;
     height: 60px
 }
-nav ul li, footer ul li {
-    display: inline-block;
-    height: 50px;
-    width: 100px;
-    text-align:center;
-    vertical-align: middle;
-}
 
-nav ul li:hover{
-    background-color: #0B24E4;
-}
 
-nav ul li a{
+nav ul li a:link, a:visited {
+    background-color: #969696;
     color: #0B24E4;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
 }
 
-nav ul li a:hover{
-    color: #B0B0B0;
+nav ul li a:hover, a:active {
+    background-color: #0B24E4;
+    color: #969696;
 }
 
 a {
