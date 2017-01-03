@@ -3,19 +3,25 @@ body {
     width: 70%;
     background-color: #B0B0B0;
 }
-nav ul, footer ul {
-    font-family:"Quicksand", sans-serif;
+
+nav ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding: 0px;
+    margin: 0;
+    font-family:"Quicksand", sans-serif;
     list-style: none;
     font-weight: bold;
-    height: 60px
+    background-color: #969696;
+
 }
 
 nav ul li{
     display: inline-block;
 }
 
-nav ul li a:link, a:visited {
+nav ul li a:link, nav ul li a:visited {
     background-color: #969696;
     color: #0B24E4;
     padding: 14px 25px;
@@ -24,7 +30,7 @@ nav ul li a:link, a:visited {
     display: inline-block;
 }
 
-nav ul li a:hover, a:active {
+nav ul li a:hover, nav ul li a:active {
     background-color: #0B24E4;
     color: #969696;
 }
