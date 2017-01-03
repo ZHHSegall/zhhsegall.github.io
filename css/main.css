@@ -11,6 +11,9 @@ nav ul, footer ul {
     height: 60px
 }
 
+nav ul li{
+    display: inline-block;
+}
 
 nav ul li a:link, a:visited {
     background-color: #969696;
@@ -28,7 +31,8 @@ nav ul li a:hover, a:active {
 
 a {
     text-decoration: none;
-    color: #999;
+    font-weight: bold;
+
 }
 p a:hover {
     text-decoration: underline;
@@ -47,7 +51,7 @@ h3 {
     padding:0;
 }
 
-p, ul li{
+p, ul li, ol li{
     margin:0;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
