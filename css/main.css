@@ -7,14 +7,14 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline-block;
-    margin-right: 20px;
     color: #0B24E4;
 }
+nav ul li, footer ul li {
+    display: block;
+    margin-right: 20px;
+}
 nav ul li a:hover{
-    color: #000;
+    color: #fff;
     background-color: #0B24E4;
 }
 a {
