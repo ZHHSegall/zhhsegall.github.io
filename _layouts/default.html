@@ -7,8 +7,9 @@
 			<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
+			<div id="wrapper" style="padding: 0% 15%; width: 70%;">
+				<nav>
+	    			<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/projects">Projects</a></li>
 		        	<li><a href="/resume">Resume</a></li>
@@ -16,12 +17,13 @@
 	        		<li><a href="/blog/">Blog</a></li>
 	        		<li><a href="mailto:zhhsegallb@gmail.com">Email</a></li>
 	        		<li><a href="https://github.com/zhhsegall">Github</a></li>
-	    		</ul>
-			</nav>
-			<div class="container" style="padding: 0% 15%; width: 70%;">
+	    			</ul>
+				</nav>
+				<div class="container" >
 			
-			{{ content }}
+				{{ content }}
 			
-			</div><!-- /.container -->
+				</div><!-- /.container -->
+			</div>
 		</body>
 	</html>
