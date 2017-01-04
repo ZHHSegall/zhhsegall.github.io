@@ -87,6 +87,12 @@ ul.posts li {
 }
 
 table {
+    width:100%;
+}
+
+
+th, td {
     border: 1px #0B24E4;
     border-spacing: 5px;
+    width: 33%;
 }
