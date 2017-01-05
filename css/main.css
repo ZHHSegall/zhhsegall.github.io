@@ -56,6 +56,11 @@ h3 {
     padding:0;
 }
 
+
+.section-title{
+    font-family: "Oswald", sans-serif;
+}
+
 p, ul li, ol li{
     margin:0;
     font-family: 'Quicksand', sans-serif;
@@ -87,8 +92,18 @@ ul.posts li {
     color: #0B24E4;
 }
 
+.project-paragraph{
+    outline: #0B24E4 thick;
+    padding: 0% 5%; 
+    width: 90%;
+}
+
+.sapphire{
+    color:#0B24E4;
+}
 table {
     width:100%;
+
 }
 
 
